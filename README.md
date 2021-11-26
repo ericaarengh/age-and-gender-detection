@@ -3,6 +3,15 @@ Objective :
 
 To build a gender and age detector that can approximately guess the gender and age of the person (face) in a picture or through webcam.
 
+About the Project :
+
+In this Python Project, we had used Deep Learning to accurately identify the gender and age of a person from a single image of a face. 
+we used the models trained by Tal Hassner and Gil Levi. The predicted gender may be one of ‘Male’ and ‘Female’, 
+and the predicted age may be one of the following ranges- (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43),
+(48 – 53), (60 – 100) (8 nodes in the final softmax layer). It is very difficult to accurately guess an exact age from a single image
+because of factors like makeup, lighting, obstructions, and facial expressions.
+And so, we made this a classification problem instead of making it one of regression.
+
 The contents of this Project :
 
 opencv_face_detector.pbtxt
@@ -17,13 +26,13 @@ gender_deploy.prototxt
 
 gender_net.caffemodel
 
-a few pictures to try the project on
+A few pictures to try the project on
 
 AgeGender.py
 
 Models
 
-Download models from
+Downloaded Models from
 
 Gender Net : https://www.dropbox.com/s/iyv483wz7ztr9gh/gender_net.caffemodel?dl=0"
 
