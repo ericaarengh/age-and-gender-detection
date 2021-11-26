@@ -19,7 +19,7 @@ gender_net.caffemodel
 
 a few pictures to try the project on
 
-detect.py
+AgeGender.py
 
 Models
 
